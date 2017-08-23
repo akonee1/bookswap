@@ -7,16 +7,21 @@
 * UI/UX: Xavier, Winston
 * Project Manager: Hailey
 
-## Installation:
-1. Install Laravel: composer install --prefer-dist
-2. Change your database settings in app/config/database.php (database, username, password)
-3. Migrate your database: php artisan migrate:refresh
-4. Seed example data in this order:
-* php artisan db:seed --class=UsersTableSeeder
-* php artisan db:seed --class=BookTableSeeder
-* php artisan db:seed --class=ExchangeTableSeeder
-4. Run the application: php artisan serve
-5. View the application in browser: localhost:8000
+## Important comands
+Change your database settings in app/config/database.php (database, username, password)
+Migrate your database: php artisan migrate:refresh
+Run the application: php artisan serve
+View the application in browser: localhost:8000
+
+##AWS
+http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-install.html
+
+http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/php-laravel-tutorial.html
+
+http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_GettingStarted.CreatingConnecting.SQLServer.html
+
+http://docs.aws.amazon.com/ses/latest/DeveloperGuide/setting-up-email.html
+
 
 ## TinyUrl:
-* http://tinyurl.com/clawbookswap
+* tinyurl.com/BookSwapGGC
